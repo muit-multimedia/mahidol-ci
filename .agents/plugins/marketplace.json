@@ -1,0 +1,20 @@
+{
+  "name": "muit-multimedia",
+  "interface": {
+    "displayName": "MUIT Multimedia"
+  },
+  "plugins": [
+    {
+      "name": "mahidol-ci",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mahidol-ci"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "mahidol-ci",
+  "version": "0.1.7",
+  "description": "Create and review Mahidol CI materials using original SVG artwork and component-specific color rules.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Mahidol CI",
+        "shortDescription": "Mahidol CI guidance and original SVG artwork",
+        "category": "Productivity"
+      }
+    }
+  }
+}
